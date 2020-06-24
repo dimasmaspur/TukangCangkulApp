@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    tools:context=".RegisActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRASI"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Daftarkan Tukang Cangkulmu"
+        android:textSize="20dp"></TextView>
+
+    <TableRow>
+        <TextView android:text="NIK"
+            android:id="@+id/nik"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold">
+        </TextView>
+
+        <EditText android:id="@+id/txtnik"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Nama"
+            android:id="@+id/nama"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText android:id="@+id/txtnama"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="No.Telp"
+            android:id="@+id/notelp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText android:id="@+id/txtnohp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Kabupaten/Kota"
+            android:id="@+id/kk"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtkota"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"></EditText>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Kelurahan"
+            android:id="@+id/kelu"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtkeluh"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"></EditText>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Kecamatan"
+            android:id="@+id/kec"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtkecam"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"></EditText>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Alamat"
+            android:id="@+id/alamat"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText android:id="@+id/txtalamat"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"></EditText>
+    </TableRow>
+
+    <Button android:text="simpan"
+        android:id="@+id/btnsimpan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SimpanData"
+        android:layout_marginTop="50dp">
+    </Button>
+</TableLayout>
